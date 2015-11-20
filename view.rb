@@ -27,6 +27,7 @@ class View
     puts "Your question is #{question}"
   end
 
+
   def print_answer(answer)
     puts "The correct answer is #{answer}"
   end
@@ -40,12 +41,22 @@ class View
   end
 
   def get_user_input
+    puts "Respond Below:"
     gets.chomp
   end
 
   def print_correct
-    puts "Congrats you got it right!"
+    puts "Congrats you got it right!\nMoving on to the next question"
   end
+
+  def play_again
+    puts "Would you like to play again?\n Type yes or no"
+  end
+
+  def game_over
+    puts "Game Over thanks for playing!"
+  end
+
 
 
 end
