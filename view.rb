@@ -23,20 +23,20 @@ class View
   end
 
   def print_question(question)
-    puts "Your question is #{question}"
+    puts "\nYour question is #{question}"
   end
 
 
   def print_answer(answer)
-    puts "The correct answer is #{answer}"
+    puts "\nThe correct answer is #{answer}"
   end
 
   def print_score(score, size)
-    puts "You scored #{score} out of a total of #{size}"
+    puts "\nYou scored #{score} out of a total of #{size}"
   end
 
   def print_strikes(num_strikes)
-    puts "Oops! That's strike #{num_strikes}!"
+    puts "\nOops! That's strike #{num_strikes}!"
   end
 
   def get_user_input
@@ -45,7 +45,7 @@ class View
   end
 
   def print_correct
-    puts "Congrats you got it right!\nMoving on to the next question"
+    puts "\nCongrats you got it right!\nMoving on to the next question"
   end
 
   def play_again
@@ -53,7 +53,7 @@ class View
   end
 
   def game_over
-    puts "Game Over thanks for playing!"
+    puts "\n\nGame Over thanks for playing!"
   end
 
 end
