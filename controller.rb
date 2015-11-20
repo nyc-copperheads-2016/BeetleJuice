@@ -26,7 +26,7 @@ class Controller
       view.print_answer(current_card.answer)
       correct_recurse(card.check?(view.get_user_input))
       player.strikes=0
-      view.print_score
+      view.print_score(player.score,deck.initial.size)
       current_card=deck.grab_card
     end
   end

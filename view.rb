@@ -57,6 +57,4 @@ class View
     puts "Game Over thanks for playing!"
   end
 
-
-
 end
