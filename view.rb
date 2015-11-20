@@ -42,4 +42,10 @@ class View
   def get_user_input
     gets.chomp
   end
+
+  def print_correct
+    puts "Congrats you got it right!"
+  end
+
+
 end

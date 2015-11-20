@@ -7,8 +7,8 @@ class Card
   end
 
 
-  def check
-
+  def check?(input)
+    input == answer
   end
 
 end

@@ -19,9 +19,11 @@ class Controller
     deck.fill_deack(view.get_user_input)
     view.print_question(current_card.question)
     view.print_answer(current_card.answer)
-    card(view.get_user_input)
+    correct_check(card.check?(view.get_user_input))
+  end
 
-
+  def correct_check(input)
+    !input ? view.print_strikes(player.strikes) : view.print_correct
   end
 
 end
