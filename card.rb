@@ -8,7 +8,7 @@ class Card
 
 
   def check?(input)
-    input == answer
+    input.downcase == answer.downcase
   end
 
 end

@@ -11,7 +11,6 @@ class View
     puts "Riddles and Movies"
     puts ""
     puts "Please enter the name of the deck you would like to use!"
-    get_user_input
   end
 
   def print_rules
