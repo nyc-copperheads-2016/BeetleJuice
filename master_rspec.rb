@@ -75,3 +75,11 @@ describe Deck do
     end
   end
 end
+
+describe Controller do
+  describe '#initialize' do
+    xit '' do
+      expect().to be ()
+    end
+  end
+end
