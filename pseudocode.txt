@@ -1,0 +1,11 @@
+1. From user input decide on which deck to parse
+  a.display rules
+2. Read in deck
+3. ask Question
+  a.2 attempts to answer if the user gets it wrong
+  b.if correct displays congrats adn increments Correct Counter
+  c.if incorrect more than twice then it displays the answer
+4. loop until no more cards
+5. Display "game over"
+  a.Display score
+6. would you like to play again?
