@@ -6,4 +6,9 @@ class Card
     @answer=args.fetch(:answer,'N/A')
   end
 
+
+  def check?(input)
+    input == answer
+  end
+
 end
