@@ -1,6 +1,5 @@
 class Player
-  attr_reader :score
-  attr_accessor :strikes
+  attr_accessor :strikes, :score
   def initialize
     @score = 0
     @strikes = 0
