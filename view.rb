@@ -32,7 +32,7 @@ class View
   end
 
   def print_score(score, size)
-    puts "\nYou scored #{score} out of a total of #{size}"
+    puts "\nYou scored #{score} out of a total of #{size}\n"
   end
 
   def print_strikes(num_strikes)
@@ -40,7 +40,7 @@ class View
   end
 
   def get_user_input
-    puts "Respond Below:"
+    puts "\nRespond Below:"
     gets.chomp
   end
 

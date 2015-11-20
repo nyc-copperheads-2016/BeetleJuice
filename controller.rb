@@ -10,8 +10,10 @@ class Controller
     greeting
     deck.initial_size=deck.deck.size
     @current_card=deck.grab_card
+    system('clear')
     run_deck
     play_again?
+    system('clear')
   end
 
   def greeting
@@ -26,9 +28,11 @@ class Controller
       view.print_question(current_card.question)
       correct_recurse(current_card.check?(view.get_user_input))
       player.strikes=0
-      view.print_score(player.score,deck.initial_size)
       self.current_card=deck.grab_card
+      sleep(2)
+      system('clear')
     end
+    view.print_score(player.score,deck.initial_size)
   end
 
 

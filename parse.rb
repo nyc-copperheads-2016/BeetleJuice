@@ -3,7 +3,6 @@ require 'csv'
 
 module Parser
 	def self.get_csv(input)
-		p input
 		if input == "movies"
 			self.movies
 		elsif input == "riddles"
